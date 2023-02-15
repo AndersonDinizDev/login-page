@@ -9,7 +9,6 @@
   </head>
   <body>
     <main class="container">
-      <div class="login">
         <div class="login-left">
           <div class="login-left-content">
             <div class="login-left-texts">
@@ -30,10 +29,14 @@
                     <label for="password">Password</label>
                     <input id="password" type="password" />
                   </div>
-                  <div class="form-item">
-                    <label for="checkbox">Remember Me</label>
-                    <input id="checkbox" type="checkbox" />
+                  <div class="form-item" id="form-item-check">
+                    <div class="form-item-checkbox">
+                    <label for="checkBoxItem" id="checkBoxLabel">Remember Me</label>
+                    <input id="checkBoxItem" type="checkbox" checked/>
+                    </div>
+                    <div class="form-item-text">
                     <p>Forgot Password ?</p>
+                     </div>
                   </div>
                   <div class="login-left-buttons">
                     <button type="submit">Login</button>

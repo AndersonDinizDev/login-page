@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  padding: 40px 300px 40px 300px;
+}
+
+.container {
+  min-height: calc(100vh - 80px);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.login-left {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.login-left-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 50px;
+    padding-left: 86px;
+}
+
+.login-left-texts h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3751FE;
+}
+
+.login-left-texts h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3751FE;
+}
+
+.login-left-texts h3 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #00000099;
+}
+
+.form-item label, p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #0000009c;
+}
+
+.form-item label:not(#checkBoxLabel) {
+    display: inline-block;
+    transform: translate(20px, 12px);
+    position: absolute;
+}
+
+.form-item input:not(#checkBoxItem) {
+    width: 95%;
+    height: 74px;
+    border: 1px solid #C1BBBB;
+    background: #FFFFFF;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #3751FE;
+    padding: 39px 0px 14px 27px;
+}
+
+#form-item-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.form-item-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#checkBoxLabel {
+    transform: translate(30px, 0px);
+    position: absolute;
+}
+
+#checkboxItem {
+    width: 20px;
+    height: 20px;
+    accent-color: #3751FE;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.login-right {
+  display: flex;
+  background: #e5e5e569;
+  justify-content: content;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-right img {
+  width: 70%;
+}
