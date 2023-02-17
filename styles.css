@@ -22,6 +22,7 @@ body {
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
+/* login-page left contents */
 .login-left {
   display: flex;
   flex-direction: column;
@@ -32,8 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 0;
-    gap: 50px;
-    padding-left: 86px;
+    padding-left: 65px;
 }
 
 .login-left-texts h1 {
@@ -46,19 +46,19 @@ body {
 .login-left-texts h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
+    font-size: 20px;
+    line-height: 25px;
     color: #3751FE;
 }
 
 .login-left-texts h3 {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 14px;
     color: #00000099;
+    margin-top: 60px;
 }
 
 .form-item label, p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 21px;
     color: #0000009c;
 }
@@ -71,11 +71,11 @@ body {
 
 .form-item input:not(#checkBoxItem) {
     width: 95%;
-    height: 74px;
+    height: 50px;
     border: 1px solid #C1BBBB;
     background: #FFFFFF;
     outline: none;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     color: #3751FE;
@@ -87,6 +87,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     width: 95%;
+    margin-top: 10px;
 }
 
 .form-item-checkbox {
@@ -107,8 +108,33 @@ body {
     display: flex;
     align-items: center;
     gap: 7px;
+    cursor: pointer;
 }
 
+.form-item-text a {
+  font-size: 13px;
+  line-height: 21px;
+  color: #0000009c;
+}
+
+.login-left-buttons {
+  margin-top: 20px;
+}
+
+.login-left-footer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-left-footer a {
+  font-size: 10px;
+
+}
+
+/* Login-page right contents */
 .login-right {
   display: flex;
   background: #e5e5e569;
