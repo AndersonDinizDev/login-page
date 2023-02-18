@@ -23,11 +23,11 @@
                 <div class="login-form-content">
                   <div class="form-item">
                     <label for="email">Email Adress</label>
-                    <input id="email" type="email" />
+                    <input id="email" type="email" required autofocus/>
                   </div>
                   <div class="form-item">
                     <label for="password">Password</label>
-                    <input id="password" type="password" />
+                    <input id="password" type="password" required/>
                   </div>
                   <div class="form-item" id="form-item-check">
                     <div class="form-item-checkbox">
@@ -45,7 +45,7 @@
                 </div>
               </div>
               <div class="login-left-footer">
-                <p>Or login with:</p>
+                <p id="loginWith">Or login with:</p>
                 <a href="#">Facebook</a>
                 <a href="#">Linkedln</a>
                 <a href="#">Google</a>
@@ -73,7 +73,9 @@
                 </ul>
               </nav>
             </div>
+            <div class="login-right-img">
             <img src="./assets/login-right-img.svg" alt="Login Image" />
+          </div>
           </div>
         </div>
       </div>

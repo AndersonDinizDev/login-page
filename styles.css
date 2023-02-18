@@ -22,25 +22,31 @@ body {
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* login-page left contents */
+/* Content on the left side of the page */
+
 .login-left {
   display: flex;
   flex-direction: column;
   background-color: white;
+  justify-content: center;
 }
 
 .login-left-content {
     display: flex;
     flex-direction: column;
     margin-top: 0;
-    padding-left: 65px;
+    padding-left: 10%;
+}
+
+.login-left-texts {
+  width: 100%;
 }
 
 .login-left-texts h1 {
     font-weight: 700;
     font-size: 30px;
-    line-height: 35px;
     color: #3751FE;
+    text-justify: auto;
 }
 
 .login-left-texts h2 {
@@ -49,12 +55,14 @@ body {
     font-size: 20px;
     line-height: 25px;
     color: #3751FE;
+    margin-top: 60px;
 }
 
 .login-left-texts h3 {
     font-size: 14px;
     color: #00000099;
-    margin-top: 60px;
+    margin-top: 65px;
+    margin-bottom: 25px;
 }
 
 .form-item label, p {
@@ -80,6 +88,11 @@ body {
     line-height: 21px;
     color: #3751FE;
     padding: 39px 0px 14px 27px;
+    transition: 0.2s ease-in-out;
+}
+
+.form-item input:focus:not(#checkBoxItem) {
+  border-left: 3px solid #0C31F1;
 }
 
 #form-item-check {
@@ -87,7 +100,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     width: 95%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .form-item-checkbox {
@@ -115,26 +128,70 @@ body {
   font-size: 13px;
   line-height: 21px;
   color: #0000009c;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.form-item-text a:hover {
+  text-decoration: underline;
 }
 
 .login-left-buttons {
-  margin-top: 20px;
-}
-
-.login-left-footer {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 15px;
 }
 
+.login-left-buttons button {
+  width: 129px;
+  height: 54px;
+  background: #FFFFFF;
+  border: 1px solid #3751FE;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3751FE;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.login-left-buttons button:hover {
+  background: #3751FE;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+}
+
+.login-left-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  width: 100%;
+}
+
+#loginWith {
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 17px;
+  line-height: 21px;
+  color: #0000009c;
+}
+
 .login-left-footer a {
-  font-size: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #3751FE;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
 
 }
 
-/* Login-page right contents */
+.login-left-footer a:hover {
+  font-size: 14.8px;
+}
+
+/* Content on the right side of the page */
+
 .login-right {
   display: flex;
   background: #e5e5e569;
@@ -143,6 +200,59 @@ body {
   align-items: center;
 }
 
-.login-right img {
-  width: 70%;
+.login-right-content {
+  display: flex;
+  flex-direction: column;
 }
+
+.login-right-header {
+  margin-top: 7%;
+  display: grid;
+  place-items: center;
+}
+
+.login-right-header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.login-right-header nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #746d6d;
+  position: relative;
+
+}
+
+.login-right-header nav ul li a:hover {
+  color: #000000;
+}
+
+.login-right-header nav ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #0C31F1;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.login-right-header nav ul li a:hover::after {
+  width: 100%;
+}
+
+.login-right-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.login-right img {
+  width: 100%;
+}
+
+
+/* Responsive Design */
