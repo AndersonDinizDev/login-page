@@ -8,6 +8,6 @@ Página de login totalmente reponsiva.
 <li><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" width="70px" /></li>
 </ul>
 <h2>Desktop:</h2>
-<img src="https://github.com/AndersonDinizDev/login-page/blob/main/img/desktop.png?raw=true" />
+<img src="https://github.com/AndersonDinizDev/login-page/blob/master/assets/desktop.png?raw=true" />
 <h2>Mobile:</h2>
-<img src="https://github.com/AndersonDinizDev/login-page/blob/main/img/mobile.png?raw=true" />
+<img src="https://github.com/AndersonDinizDev/login-page/blob/master/assets/mobile.png?raw=true" />
