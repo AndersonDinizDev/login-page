@@ -7,7 +7,6 @@
 
 body {
   margin: 0;
-  padding: 0;
   background: #e5e5e5;
   padding: 40px 300px 40px 300px;
 }
@@ -335,3 +334,63 @@ p {
  }
 
 /* Responsive Design */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  
+  body {
+    padding: 0;
+  }
+
+  .container {
+    display: block;
+    min-height: auto;
+    height: 100vh;
+  }
+
+.login-left {
+  height: 100%;
+  width: 100%;
+}
+
+.login-left-texts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-left-texts h2 {
+  text-align: center;
+}
+
+.login-left-content {
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.form-item input:not(#checkBoxItem) {
+  width: 100%;
+}
+
+  .login-right {
+    display: none;
+  }
+
+  .login-left-buttons {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  body {
+    padding: 250px 50px 40px 50px;
+  }
+
+  .container {
+    min-height: calc(100vh - 500px);
+  }
+}
