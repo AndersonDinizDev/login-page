@@ -1,5 +1,5 @@
-<h1>Página Clone do Instagram</h1>
-Página de login totalmente reponsiva.
+<h1>Página de Login</h1>
+Página de login feita para aprimorar meus conhecimentos nas tecnologias: HTML, CSS e JavaScript.
 
 <h2>Tecnologias Utilizadas:</h2>
 <ul>
