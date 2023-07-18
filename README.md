@@ -42,6 +42,6 @@ The following tools were used in this project:
 $ git clone https://github.com/andersondinizdev/login-page.git
 # Access
 $ cd login-page
-# The server will initialize in the <http://127.0.0.1:5500l>
+# The server will initialize in the <http://127.0.0.1:55000>
 ```
 [⬆ Voltar ao topo](#login-page)<br>
