@@ -21,7 +21,7 @@
 
 ## ✨ Recursos:
 
-- [x] Adicionar responsividade;
+- [x] Responsividade;
 
 ## 💻 Requisitos:
 
