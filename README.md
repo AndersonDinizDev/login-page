@@ -1,6 +1,6 @@
 # Login-Page
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<!---These are examples. See https://shields.io for others or to customize this set of shields. You may want to include dependencies, project status, and license information here--->
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/andersondinizdev/login-page?style=for-the-badge">
@@ -19,29 +19,29 @@
 <img src="/assets/print.gif" alt="exemplo imagem"/>
  </p>
 
-## ✨ Features:
+## ✨ Recursos:
 
-- [x] Add responsive;
+- [x] Adicionar responsividade;
 
-## 💻 Requeriments:
+## 💻 Requisitos:
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados.
 
-## 🚀 Technologies:
+## 🚀 Tecnologias:
 
-The following tools were used in this project:
+As seguintes ferramentas foram usadas neste projeto:
 
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/html/)  
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Início ##
 
 ```bash
-# Clone this project
+# Clone este projeto
 $ git clone https://github.com/andersondinizdev/login-page.git
-# Access
+# Acesse
 $ cd login-page
-# The server will initialize in the <http://127.0.0.1:55000>
+# O servidor será inicializado em <http://127.0.0.1:55000>
 ```
 [⬆ Voltar ao topo](#login-page)<br>
